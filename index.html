@@ -9,16 +9,16 @@
       href="assets/imgs/Mario-ico.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <script src="/assets/js/script.js" defer></script>
   </head>
   <body>
-    
     <div class="game-board">
-      <img src="assets/imgs/clouds.png" alt="nuvens" />
-      <img src="assets/imgs/mario.gif" alt="mario" />
-      <img src="assets/imgs/pipe.png" alt="pipe" />
+      <img src="assets/imgs/clouds.png" class="cloud" />
+      <img src="assets/imgs/mario.gif" class="mario" />
+      <img src="assets/imgs/pipe.png" class="pipe" />
     </div>
-
+    <label class="score"></label>
     <div class="game-over">
       <button class="restart">Reiniciar</button>
     </div>
